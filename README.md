@@ -1,4 +1,8 @@
 # tgaipdfreader
+Телеграм бот, который c помощью Gemini 2.5-flash отвечает на вопросы опираясь на материалы загруженные в формате pdf
+
+Чтобы добавить материалы нужно поместить pdf в папку books, затем обработать файлы утилитой ingest.py
+
 steps for git bash
 1. [cmd] python -m venv venv
 2. [cmd] source venv/Scripts/activate
@@ -7,3 +11,5 @@ steps for git bash
 5. [cmd] python ingest.py
 6. create .env file, insert text from env.example and api keys
 7. [cmd] python bot.py
+
+![Скриншот работы](screen1.png)
